@@ -62,7 +62,7 @@ DATABASES = {
 
 # Instruct Sentry that this install intends to be run by a single organization
 # and thus various UI optimizations should be enabled.
-SENTRY_SINGLE_ORGANIZATION = True
+SENTRY_SINGLE_ORGANIZATION = False
 
 # Sentry event retention days specifies how long events are retained in the database.
 # This should be set on your `.env` or `.env.custom` file, instead of modifying
